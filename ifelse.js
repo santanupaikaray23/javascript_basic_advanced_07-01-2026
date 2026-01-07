@@ -84,3 +84,50 @@ var name = "Tina"
 if(name=="Tina" && (role=="Admin" || role=="User")){
     console.log(`hi ${name} you are ${role}`)
 }
+
+var a = 1
+if(a){
+    console.log("hi")
+}else{
+    console.log("Bie")
+}
+
+
+var a = 0
+if(a){
+    console.log("hi")
+}else{
+    console.log("Bie")
+}
+
+var a = -1
+if(a){
+    console.log("hi")
+}else{
+    console.log("Bie")
+}
+
+var a = 45342
+a%2==0
+
+// Ternary> single line if else
+
+var a = 10
+a>10?"hii":"Bie"
+var a = 10
+a>10?"hii":"Bie"
+'Bie'
+var a = 10
+a==10?"hii":"Bie"
+'hii'
+var a = 11
+a>10?"hii":"Bie"
+'hii'
+var a = 10
+a>10?a+1:a-1
+var a = 10
+a>10?a+1:a-1
+9
+var a = 10
+a==10?a+1:a-1
+11
