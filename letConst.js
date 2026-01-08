@@ -5,7 +5,7 @@
 var a = 10
 undefined
 var a > declare
-a=10> assignment
+ a=10> assignment
 > a
 10
 > var a = 12

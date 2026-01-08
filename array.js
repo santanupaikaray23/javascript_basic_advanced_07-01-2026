@@ -86,5 +86,43 @@ var b = [1,2,3,4]
 a.concat(b)
 (8) ['a', 'b', 'c', 1, 1, 2, 3, 4]
 
+var a = "hii"
+var b = ['hii']
 
+var city = ["Delhi","Mumbai","Bangalore","Chennai","Kolkata"]
+city.sort()
 
+var city = ["London",3 ,"Mumbai", "Agra", true, 6, "Delhi",8 ,false,1 ,2]
+
+// for > Generate series of value or help to iterate over the Array
+for (i=0; i<5; i++){
+    console.log(i)
+}
+
+for(var i=0;i<5;i++){
+    let a = 10
+    console.log(a+i)
+}
+
+var city = ["Delhi","Mumbai","Bangalore","Chennai","Kolkata"]
+for(var i=0;i<city.length;i++){
+    console.log(city[i])
+}
+
+for(i=0;i<5;i++){
+    for(j=0;j<i;j++){
+        console.log(i+j)
+}
+}
+
+var myarray = ["Amsterdam", "Dubai",["BMW","Audi","Ferrari"], "London", "Venice",["Asia","Europe","Africa"]]
+for(i=0; i<myarray.length; i++){
+    if(Array.isArray(myarray[i])){
+        for(j=0; j<myarray[i].length; j++){
+            console.log(myarray[i][j])
+        }
+        }else{
+            console.log(myarray[i])
+        }
+  
+}
